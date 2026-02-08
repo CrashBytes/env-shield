@@ -1,5 +1,5 @@
 {
-  "name": "env-shield",
+  "name": "@crashbytes/env-shield",
   "version": "1.0.0",
   "description": "TypeScript-first environment variable validation with full type inference. Zero dependencies.",
   "main": "./dist/index.js",
