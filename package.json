@@ -1,0 +1,53 @@
+{
+  "name": "env-shield",
+  "version": "1.0.0",
+  "description": "TypeScript-first environment variable validation with full type inference. Zero dependencies.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "env",
+    "environment",
+    "validation",
+    "typescript",
+    "type-safe",
+    "dotenv",
+    "config",
+    "schema",
+    "environment-variables",
+    "type-inference"
+  ],
+  "author": "CrashBytes",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "tsup": "^8.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
