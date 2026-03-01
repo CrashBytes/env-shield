@@ -1,6 +1,6 @@
 {
   "name": "@crashbytes/env-shield",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript-first environment variable validation with full type inference. Zero dependencies.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
