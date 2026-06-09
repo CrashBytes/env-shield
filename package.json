@@ -49,5 +49,13 @@
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrashBytes/env-shield.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CrashBytes/env-shield/issues"
+  },
+  "homepage": "https://github.com/CrashBytes/env-shield#readme"
 }
