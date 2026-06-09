@@ -14,6 +14,10 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+    # Only release from a pushed tag. A manual workflow_dispatch on a branch
+    # has no valid tag (github.ref_name is the branch), which makes the
+    # "Create GitHub Release" step fail. Skip cleanly in that case.
+    if: github.ref_type == 'tag'
     steps:
       - uses: actions/checkout@v6
         with:
