@@ -57,5 +57,8 @@
   "bugs": {
     "url": "https://github.com/CrashBytes/env-shield/issues"
   },
-  "homepage": "https://github.com/CrashBytes/env-shield#readme"
+  "homepage": "https://github.com/CrashBytes/env-shield#readme",
+  "overrides": {
+    "esbuild": ">=0.28.1"
+  }
 }
