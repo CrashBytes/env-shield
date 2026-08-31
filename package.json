@@ -59,6 +59,7 @@
   },
   "homepage": "https://github.com/CrashBytes/env-shield#readme",
   "overrides": {
-    "esbuild": ">=0.28.1"
+    "esbuild": ">=0.28.1",
+    "nanoid": ">=3.3.18"
   }
 }
